@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Data files
+data/*.csv
+
+# Spark/Hadoop generated files
+*.log
+spark/spark-warehouse/
+spark/checkpoint/
+spark/metastore_db/
+
+# Docker
+*.pid
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
